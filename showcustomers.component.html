@@ -1,0 +1,11 @@
+<table >
+  <th>Customer Id</th><th>Customer Name</th><th>Customer Email</th><th>Customer Address</th><th>Customer Status</th><th>Select</th>
+  <tr *ngFor='let item of CustomerList'>
+    <td>{{item.CustomerId}}</td>
+    <td>{{item.CustomerName}}</td>
+    <td>{{item.CustomerEmail}}</td>
+    <td>{{item.CustomerAddress}}</td>
+    <td>{{item.IsActive}}</td>
+    <td><button (click)="customerDetail(item.CustomerId)">Select</button></td>
+  </tr>
+</table>

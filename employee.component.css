@@ -1,0 +1,8 @@
+.emp{
+    background-color: green
+}
+.selecteddiv{
+    border-style:groove;
+    margin-top: 10px;
+    background-color: yellow;
+}

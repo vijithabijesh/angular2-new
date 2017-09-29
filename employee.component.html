@@ -1,0 +1,14 @@
+<p class="emp">
+  Child Module
+</p>
+<div class="selecteddiv" *ngIf="myselectedobj">
+  Employee Name :: {{myselectedobj.Name}}
+ <br>
+  Employee Age :: {{myselectedobj.Age}}
+ <br>
+  Employee Email :: {{myselectedobj.Email}}
+  <br>
+<button (click)="ApproveCustomer()">Approve</button>
+<button (click)="RejectCustomer()">Reject</button>
+</div>
+<app-empreg></app-empreg>

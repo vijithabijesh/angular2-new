@@ -1,0 +1,8 @@
+.table{
+    background-color: gray;
+    border: 1px;
+}
+.selecteddiv{
+    border-style:groove;
+    margin-top: 10px;
+}
